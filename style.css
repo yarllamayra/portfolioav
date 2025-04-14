@@ -1,3 +1,10 @@
 #navcor{
   background-color: burlywood;
 }
+
+#foto{
+  width: 50% ;
+  height: 50%;
+  margin-left: 25%;
+  border-radius: 5%;
+}
