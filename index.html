@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="bodyhtml">
   <nav class="navbar navbar-expand-lg" id="navcor">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Meu portfolio</a>
@@ -16,10 +16,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#"> Sobre mim</a>
-          <a class="nav-link" href="#">Tecnologias</a>
-          <a class="nav-link" href="#">Projetos</a>
-          <a class="nav-link disabled" aria-disabled="true">Contatos</a>
+          <a class="nav-link active" aria-current="page" href="#Sobremim"> Sobre mim</a>
+          <a class="nav-link" href="#Tecnologias">Tecnologias</a>
+          <a class="nav-link" href="#Projetos">Projetos</a>
+          <a class="nav-link" href="#Contatos" >Contatos</a>
         </div>
       </div>
     </div>
@@ -28,19 +28,21 @@
   <section>
     <img src="Imagem do WhatsApp de 2025-04-10 à(s) 18.32.17_d1575be8.jpg" id="foto">
     <div class="container-fluid text-center mt-5 py-5"> 
-      <h2>Sobre mim</h2>
-      <p>Olá, meu nome é Yarlla Oliveira e sou desenvolvedora front-end.</p>
-      <p>Desde cedo, a tecnologia sempre despertou minha curiosidade.
-      <p>Comecei explorando o básico, e aos poucos fui me apaixonando pelo desenvolvimento web, especialmente pela forma como o front-end conecta pessoas e experiências por meio da interface.</p>
-      <p>Gosto de resolver problemas, pensar em soluções criativas e colaborar em equipe.</p>
-      <p>Para mim, a tecnologia é uma ferramenta poderosa de transformação, e fazer parte desse universo é algo que me motiva todos os dias.</p>
-      <p>Atualmente, estou focada em aprimorar minhas habilidades, contribuir com projetos que façam a diferença e evoluir como profissional na área tech.</p>
+      <h2 id="Sobremim">Sobre mim</h2>
+      <p class="text-justify">
+      Olá, meu nome é Yarlla Oliveira e sou desenvolvedora front-end.
+      Desde cedo, a tecnologia sempre despertou minha curiosidade.</p>
+      <p>Comecei explorando o básico, e aos poucos fui me apaixonando pelo desenvolvimento web, especialmente pela forma como o front-end conecta pessoas e experiências por meio da interface.
+      Gosto de resolver problemas, pensar em soluções criativas e colaborar em equipe.</p>
+      <p>Para mim, a tecnologia é uma ferramenta poderosa de transformação, e fazer parte desse universo é algo que me motiva todos os dias.
+      Atualmente, estou focada em aprimorar minhas habilidades, contribuir com projetos que façam a diferença e evoluir como profissional na área tech.
+    </p>
     </div>
   </section>
 
   <section>
     <div class="container-fluid text-center mt-5 py-5">
-    <h2>Tecnologias</h2>
+    <h2 id="Tecnologias">Tecnologias</h2>
 
     <div class="row justify-content-center mt-4">
       <div class="col-md-2">                
@@ -87,8 +89,39 @@
   </div>
 </div>
   </section>
+  
+  <section>
+    <div class="container-fluid text-center mt-5 py-5" >
+      <h2 id="Projetos"> Projetos </h2>
+      <div class="row justify-content-center mt-4"> 
+        <div class="col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
+            <img src="Captura de tela 2025-04-15 220958.png" class="card-img-top" alt="...">
+            <div class="card-body">
+
+        <h5 class="card-title"> Projeto 1 </h5>
+        <p class="card-text"> Esse foi meu primeiro projeto feito com HTML, CSS e Bootstrap. Montei uma página simples pra mostrar quem eu sou, 
+         meus projetos e como me encontrar. Usei o Bootstrap pra deixar tudo responsivo e dei meu toque com CSS. Foi onde comecei a colocar
+        em prática o que aprendi de front-end. </p>
+        <a href="https://github.com/yarllamayra/portfolioav" class="btn btn-primary">Acesse meu projeto</a>
+        </div>
+        </div>
+      </div> 
+    </div>
+   </section>
+
+   <section>
+    <div class="container-fluid text-center mt-5 py-5" >
+      <h2 id="Contatos"> Contatos </h2>
+      <p class="lead"> Informações para contato com a desenvolvedora: </p>
+      <p class="lead"> Git Hub: yarllamayra </p>
+      <a href="https://github.com/yarllamayra" class="btn btn-primary"> Acesse meu Git Hub </a>
+      <p class="lead"> Linkedin: Yarlla Oliveira </p>
+      <a href="https://www.linkedin.com/in/yarlla-m%C3%A1yra-162563360/" class="btn btn-primary"> Acesse meu linkedin </a>
+
+    </div>
+  </section>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
